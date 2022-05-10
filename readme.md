@@ -10,7 +10,8 @@ git push -u origin main #a fejlesztési ág feltöltése élső alkalommal
 …or push an existing repository from the command line
 git remote add origin https://github.com/0lasz/Teszt.git
 git branch -M main
-git push -u origin main
+git push -u origin main #feltölti a távoli feltölti az origin nevű távoli repoba a commitokat
+git pull origin main #origin main lehívása
 
 Továbbui terminál parancsok:
 giit pull origin main # a friss repoleetöltése
